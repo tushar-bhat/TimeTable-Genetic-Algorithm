@@ -69,7 +69,7 @@ class SchedulerUI(QWidget):
         self.classDurationInput = QSpinBox()
 
         # Configure input widgets
-        self.workingDaysInput.addItems(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+        self.workingDaysInput.addItems(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"])
         self.workingDaysInput.setSelectionMode(QListWidget.MultiSelection)
         self.classDurationInput.setRange(1, 180)  # Class duration between 1 and 180 minutes
 
